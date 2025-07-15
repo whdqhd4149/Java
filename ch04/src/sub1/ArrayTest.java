@@ -19,6 +19,7 @@ public class ArrayTest {
 		System.out.println("arr1[0] : " + arr1[0]);
 		System.out.println("arr2[1] : " + arr2[1]);
 		System.out.println("arr3[2] : " + arr3[2]);
+		System.out.println("arr4[3] : " + arr4[3]);
 
 	    //배열 길이(사이즈)
 		System.out.println("arr1 배열 길이 : " + arr1.length);

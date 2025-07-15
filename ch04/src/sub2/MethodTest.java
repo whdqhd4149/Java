@@ -18,6 +18,7 @@ public class MethodTest { // Java 파일은 class 구조체로서 Method로 구�
 		int y2 = f(2); // 인자값 2을 f 메서드의 매개변수 x에 대입
 		
 		int y3 = f(3); // 인자값 3을 f 메서드의 매개변수 x에 대입
+		
 		int y4 = f(4);
 		
 		System.out.println("y1 : " + y1);
@@ -31,7 +32,6 @@ public class MethodTest { // Java 파일은 class 구조체로서 Method로 구�
 		
 		System.out.println("total1 : " + total1);
 		System.out.println("total2 : " + total2);
-		
 		
 	}// main end
 	
@@ -49,7 +49,7 @@ public class MethodTest { // Java 파일은 class 구조체로서 Method로 구�
 		// 지역변수 : 메서드 내에서 선언한 변수, 메서드 호출 스택에서 메서드가 종료되면 사라짐(해제)
 		int total = 0;
 		
-		for(int k=start ; k<=end ; k++) { // k변수는 for문에서 선언했기 때문에 for문가 종료되면 해제됨
+		for(int k=start ; k<=end ; k++) { // k변수는 for문에서 선언했기 때문에 for문이 종료되면 해제됨
 			
 			total += k;
 		}
