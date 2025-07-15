@@ -29,7 +29,7 @@ public class ClassTest {
 		sonata.speed = 0;
 		
 		// 객체 상호작용(기능 활용)
-		sonata.speedUP(80);
+		sonata.speedUp(80);
 		sonata.speedDown(10);
 		sonata.show();
 		
@@ -43,7 +43,7 @@ public class ClassTest {
 		avante.color = "검정색";
 		avante.speed = 0;
 		
-		avante.speedUP(60);
+		avante.speedUp(60);
 		avante.speedDown(20);
 		avante.show();
 		

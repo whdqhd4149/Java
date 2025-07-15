@@ -67,6 +67,7 @@ public class StaticTest {
 		Calc c1 = Calc.getInstance();		
 		Calc c2 = Calc.getInstance();		
 		Calc c3 = Calc.getInstance();	
+		Calc c4 = Calc.getInstance();	
 		
 		System.out.println("1 + 2 : "+ c1.plus(1, 2));
 		System.out.println("1 - 2 : "+ c1.minus(1, 2));

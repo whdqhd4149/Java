@@ -11,7 +11,7 @@ public class Car {
 	
 	
 	// 기능(멤버메서드)
-	public void speedUP(int speed) {
+	public void speedUp(int speed) {
 		
 		// this는 자기 참조 키워드, 클래스의 멤버변수 참조 
 		this.speed += speed;

@@ -17,15 +17,16 @@ public class Sedan extends Car{
 	public void speedUp(int speed) {
 		// 부모클래스 speedUp을 자식클래스에 맞게 재정의
 		
-	}
-	
-	public void turbo() {
-		// 부모 클래스 speed 참조를 위해 접근권한을 private에서 protected로 변경
 		this.speed += speed;
 		
 		if(this.speed > MAX_SPEED) {
 			this.speed = MAX_SPEED;
 		}
+	}
+	
+	public void turbo() {
+		// 부모 클래스 speed 참조를 위해 접근권한을 private에서 protected로 변경
+	    this.speed += 10;
 	}
 	
 	public void show() {

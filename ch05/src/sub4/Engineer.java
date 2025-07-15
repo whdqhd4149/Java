@@ -10,7 +10,7 @@ public class Engineer extends Person{
 	}
 	
 	public void work() {
-		super.work();
+		super.introduce();
 		System.out.println("저는 ["+this.field+"] 엔지니어 입니다.");
 	}
 
