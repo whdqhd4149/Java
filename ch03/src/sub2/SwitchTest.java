@@ -24,6 +24,8 @@ public class SwitchTest {
 			System.out.println("number는 짝수 입니다.");
 		   break; //조건식 탈출, 없으면 그다음 case 실행
 		  
+		  
+		   
 		case 1:
 			System.out.println("number는 홀수 입니다.");
 			break;

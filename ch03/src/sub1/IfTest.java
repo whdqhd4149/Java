@@ -15,6 +15,7 @@ public class IfTest {
 		int num1 = 1;
 		int num2 = 2;
 		
+		
 		if(num1 < num2) {
 			
 			//조건이 참일때 실행

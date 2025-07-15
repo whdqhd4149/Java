@@ -23,6 +23,7 @@ public class ForTest {
 		for(int k=1;  k<=10 ; k++) {
 			sum += k; // sum = sum + k;
 			
+			
 		}
 		
 		System.out.println("1부터 10까지 합:" + sum);
@@ -62,7 +63,7 @@ public class ForTest {
 				
 				int z = x * y;
 				
-				//System.out.println(x + " x " + y + "=" + z);
+				//System.out.println(x + " x " + y + " = " + z);
 				
 				//서식문자 출력
 				System.out.printf("%d x %d = %d\n", x, y, z); //\n new line 개행처리가 필요

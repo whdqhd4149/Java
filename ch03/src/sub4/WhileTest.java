@@ -14,6 +14,7 @@ public class WhileTest {
 		int k = 1;
 	
 		
+		
 		while(k <= 10) { // ()조건식 
 			
 			sum += k;
@@ -29,17 +30,13 @@ public class WhileTest {
 		int tot = 0;
 		int j = 1;
 		
-		
 		do{
-			
 			if(j % 2 == 0) {
 				tot += j;
-				
 			}
 			
 			j++;
-			
-			
+						
 		}while(j <= 10);
 		
 		System.out.println("1부터 10까지 짝수합 :" + tot);
@@ -56,11 +53,9 @@ public class WhileTest {
 			
 			num++;
 			
-		
 		}
 		
 		System.out.println("5와 7의 최소공배수 : " + num);
-		
 		
 		
 		// continue
@@ -79,10 +74,6 @@ public class WhileTest {
 		}
 		
 		System.out.println("1부터 10까지 짝수합 :" + total);
-		
-		
-		
-		
 	}
 
 }
