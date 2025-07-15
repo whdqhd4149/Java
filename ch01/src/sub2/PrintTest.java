@@ -26,4 +26,5 @@ public class PrintTest {
 		System.out.print("Welcome\n"); // \n : 개행처리 이스케이프 특수문자
 	    System.out.print("Korea!");  	
 	}
+	
 }
