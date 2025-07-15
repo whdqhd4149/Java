@@ -20,13 +20,13 @@ public class Test03 {
 		for(int j = 0; j < 5; j++) {
 			int temp = arr[j];
 			
-			arr[j] = arr[9-j];//
+			arr[j] = arr[9-j];
 			
 			arr[9 - j] = temp;			
 		}
 		
 		// 역순으로 정렬된 배열 출력
-		for(int n : arr//) {
+		for(int n : arr) {
 			System.out.print(n+", ");
 		}
 	}

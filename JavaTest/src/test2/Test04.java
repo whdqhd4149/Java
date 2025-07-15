@@ -27,15 +27,15 @@ public class Test04 {
 				
 				if(arr[i] > arr[j]) {
 					int temp = arr[j];
-					arr[j] = arr[i]; //
+					arr[j] = arr[i];    //arr[j] = arr[i]; 
 					arr[i] = temp;		
 				}
 			}			
 		}
 		
 		// 정렬된 배열 출력하기
-		for(int n : arr//) {
-			System.out.println(n + " ");
+		for(int n : arr) {  // arr
+			System.out.print(n + " ");
 		}
 	}
 
