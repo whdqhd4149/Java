@@ -27,5 +27,7 @@ public class Account {
 		System.out.println("입금주 : " + this.name);
 		System.out.println("현재잔액 : " + this.balance);
 		System.out.println("________________________");
+		
 	}
 }
+
