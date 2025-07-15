@@ -27,7 +27,7 @@ public class Main10 {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		
-		dfdf
+		
 		
 			}
 		
