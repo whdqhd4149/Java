@@ -14,7 +14,7 @@ public class DataTypeTest {
 		//정수형
 		byte  num1 = 127;   // 1byte
 		short num2 = 32767; // 2byte
-		char  num3 = 32767; // 2byte
+		char  num3 = 97; // 2byte
 		int   num4 = 2147483647; // 4byte
 		long  num5 = 922_337_203_685_477_507L; // 8byte
 		long  num6 = 9_223_372_036_854_775_807L;
@@ -24,6 +24,7 @@ public class DataTypeTest {
 		System.out.println("num3 : " + num3);
 		System.out.println("num4 : " + num4);
 		System.out.println("num5 : " + num5);
+		System.out.println("num6 : " + num6);
 		
 		// 실수형
 		float  var1 = 0.123456789f;          // 4byte
@@ -54,9 +55,9 @@ public class DataTypeTest {
         String s3 = "Apple";
         String s4 = "가을";
         
-        System.out.println("s1 :" + s1);
-        System.out.println("s2 :" + s2);
-        System.out.println("s3 :" + s3);
-        System.out.println("s4 :" + s4);			
+        System.out.println("s1 : " + s1);
+        System.out.println("s2 : " + s2);
+        System.out.println("s3 : " + s3);
+        System.out.println("s4 : " + s4);			
 	}	
 }

@@ -87,6 +87,7 @@ public class OperatorTest {
 	    boolean res5 = !(var3 > var4); //var3는 var4보다 크지않다.
 	    
 	    
+	    
 	    System.out.println("res1 :" + res1);	    
 	    System.out.println("res2 :" + res2);
 	    System.out.println("res3 :" + res3);
