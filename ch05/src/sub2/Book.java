@@ -66,7 +66,7 @@ public class Book {
 			
 		
 		}		
-		public String getTitle() {
+		public String gettitle() {
 			this.title;
 		}
 		public String getauthor() {
