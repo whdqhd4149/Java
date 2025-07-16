@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 
 public class Grading {
+	
 	public static void main(String[] args) {
+		
 		char grade;
+		
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("점수를 입력하세요(0~100): ");

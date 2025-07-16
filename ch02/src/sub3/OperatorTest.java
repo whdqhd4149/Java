@@ -14,7 +14,7 @@ public class OperatorTest {
 		int num2 = 2;
 		int num3 = 3;
 		int num4 = 4;
-		
+	
 		int result1 = num1 + num2;
 		int result2 = num1 - num2;
 		int result3 = num2 * num3;
@@ -46,7 +46,7 @@ public class OperatorTest {
 		//복함대입연산자
 		int n1 = 1, n2 = 2, n3 = 3, n4 = 4;
 		
-		n1 += 1; // n1 = n1 + n1;
+		n1 += 1; // n1 = n1 + 1;
 		n2 -= 2; // n2 = n2 - 2;
 		n3 *= 3; // n3 = n3 * 3;
 		n4 /= 4; // n4 = n4 / 4;

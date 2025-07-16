@@ -3,12 +3,17 @@ package p103;
 import java.util.Scanner;
 
 public class CoffePrice {
+	
 	public static void main(String[] args) {
+		
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("무슨 커피 드릴까요? ");
+		
 		String order = scanner.next(); // 주문 읽기
+		
 		int price = 0;
+		
 		switch (order) {
 		
 		case "에스프레소":
