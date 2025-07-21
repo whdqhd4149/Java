@@ -1,5 +1,4 @@
 package p259;
-
 /*
  * 날짜 : 20225/07/18
  * 이름 : 이종봉
@@ -21,7 +20,9 @@ class Point{
 }
 
 class ColorPoint extends Point{
+	
 	private String color;
+	
 	public void setColor(String color) {
 		this.color = color;
 	}
@@ -32,9 +33,10 @@ class ColorPoint extends Point{
 	}
 }
 
-
-public class ColorPoint {
+public class ColorPointEx{
+	
 	public static void main(String[] args) {
+		
 		Point p = new Point();
 		p.set(1, 2);
 		p.showPoint();
@@ -46,3 +48,29 @@ public class ColorPoint {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
