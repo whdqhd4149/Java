@@ -27,8 +27,8 @@ public class Test07 {
 		
 		while(true) {
 			
-			if(a % temp == 0 && b && temp == 0 ) {
-				??? // break;
+			if(a % temp == 0 && b % temp == 0 ) {
+				break; // break;
 			}
 			temp--;
 			

@@ -77,5 +77,4 @@ public class WrapperTest {
 	    System.out.println("wr2 : " + wr2);
 	    System.out.println("wr3 : " + wr3);
 	}
-
 }

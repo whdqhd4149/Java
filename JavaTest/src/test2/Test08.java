@@ -14,6 +14,6 @@ public class Test08 {
 			return 1;
 		}
 		
-		return n * factorial(??); // n-1
+		return n * factorial(n-1); // n-1
 	}
 }
