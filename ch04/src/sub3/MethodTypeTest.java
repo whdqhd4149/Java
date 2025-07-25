@@ -14,6 +14,7 @@ public class MethodTypeTest {
 	double y2 = type1(3.2);
 	double y3 = type1(4.0);
 	
+	
 	System.out.println("y1 : " + y1);
 	System.out.println("y2 : " + y2);
 	System.out.println("y3 : " + y3);
@@ -42,7 +43,7 @@ public class MethodTypeTest {
 	public static void type2(boolean status) {
 		
 		if(status) {
-			System.out.println("창 입니다.");
+			System.out.println("참 입니다.");
 		}else {
 			System.out.println("거짓 입니다.");
 		}

@@ -18,6 +18,7 @@ A+B+C의 값을 출력한다.
 출력 7931
  */
 public class Main11 {
+	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
