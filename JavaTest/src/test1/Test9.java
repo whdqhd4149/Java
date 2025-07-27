@@ -14,9 +14,10 @@ public class Test9 {
 		for(int i=1 ; i<=9 ; i++) {
 			
 			if(i<=5) {
+				count++;
 				
 			}else {
-				
+				count--;
 		}
 			
 		
